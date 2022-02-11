@@ -4,32 +4,3 @@
 	align-items: center;
 	padding: 20px 80px;
 }
-
-.title {
-	font-weight: bold;
-	font-size: 22px;
-	color: #4a4a4a;
-	margin-bottom: 6px;
-}
-.subtitle {
-	font-weight: lighter;
-	font-size: 16px;
-}
-
-.directory-menu {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 100%;
-}
-
-.content {
-	height: 90px;
-	padding: 0 25px;
-	min-width: 10%;
-	border: 1px black solid;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
