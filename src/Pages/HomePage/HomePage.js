@@ -2,7 +2,8 @@ import React from "react";
 import Directory from "../../components/Directory/Directory";
 import "./HomePage.scss";
 
-const HomePage = () => {
+const HomePage = (props) => {
+	console.log("THIS IS PRops", props);
 	return (
 		<>
 			<div className="homepage">
