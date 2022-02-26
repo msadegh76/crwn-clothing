@@ -1,7 +1,7 @@
 import "./App.css";
 import HomePage from "./Pages/HomePage/HomePage";
 import { Route, Routes, useParams, useLocation, Link } from "react-router-dom";
-import HatsPage from "./Pages/HatsPage/HatsPage";
+import ShopPage from "./Pages/ShopPage/ShopPage";
 function App() {
 	////////////////////////////TEMP
 	const HatsDetail = (props) => {
@@ -21,7 +21,7 @@ function App() {
 		<div>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
-				<Route path="/hats" element={<HatsPage />} />
+				<Route exact path="/shop" element={<ShopPage />} />
 				<Route path="/hats/:hatId" element={<HatsDetail />} />
 			</Routes>
 		</div>
