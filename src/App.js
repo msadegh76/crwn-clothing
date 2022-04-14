@@ -3,6 +3,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import { Route, Routes, useParams, useLocation, Link } from "react-router-dom";
 import ShopPage from "./Pages/ShopPage/ShopPage";
 import Header from "./components/Header/Header.js";
+import SignInSignUp from "./Pages/SignInSignUp/SignInSignUp";
 function App() {
 	////////////////////////////TEMP
 	const HatsDetail = (props) => {
@@ -25,6 +26,7 @@ function App() {
 				<Route path="/" element={<HomePage />} />
 				<Route exact path="/shop" element={<ShopPage />} />
 				<Route path="/hats/:hatId" element={<HatsDetail />} />
+				<Route path="/signin" element={<SignInSignUp />} />
 			</Routes>
 		</div>
 	);
